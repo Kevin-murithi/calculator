@@ -16,7 +16,6 @@ body {
     border-radius: 30px;
 }
 
-
 .screen {
     width: 92%;
     height: 50%;
@@ -62,6 +61,7 @@ body {
     height: 40px;
     margin: 2px;
     border-radius: 10px;
+    font-weight: bold;
 }
 
 .right_work_area button:hover {

@@ -24,10 +24,6 @@ function clearDisplay() {
 function funcDelete() {
     var screen = document.getElementById("screen");
     var currentInput = screen.value;
-
-    // Remove the last character from the input
     var newInput = currentInput.slice(0, -1);
-
-    // Update the input field with the new value
     screen.value = newInput;  
 }
