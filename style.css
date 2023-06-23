@@ -6,7 +6,7 @@ body {
     background-image: url('images/Screenshot (87).png');
 }
 
-.calculator {
+#calculator {
     width: 350px;
     height: 400px;
     background-color: rgb(90, 19, 232);

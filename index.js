@@ -31,3 +31,4 @@ function funcDelete() {
 function appreciation() {
     console.log("thank you for using my calculator");
 }
+
