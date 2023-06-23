@@ -65,8 +65,39 @@ body {
     background-color: rgba(240, 115, 6, 0.5);
 }
 
+.calculate_btn button{
+    width: 105px;
+}
+
 @media screen and (max-width:320px) {
     .work_area button {
-        width: 48px;
+        width: 40px;
+    }
+
+    .right_work_area button {
+        width: 30px;
+    }
+    .calculate_btn button {
+        width: 65px;
+    }
+}
+
+@media screen and (max-width:350px) {
+    .right_work_area button {
+        width: 40px;
+    }
+
+    .calculate_btn button {
+        width: 85px;
+    }
+}
+
+@media screen and (max-width:310px) {
+    .right_work_area button {
+        width: 35px;
+    }
+
+    .calculate_btn button {
+        width: 75px;
     }
 }
