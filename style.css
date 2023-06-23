@@ -82,7 +82,7 @@ body {
     }
 }
 
-@media screen and (max-width:350px) {
+@media screen and (max-width:362px) {
     .right_work_area button {
         width: 40px;
     }
