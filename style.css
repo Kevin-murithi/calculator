@@ -16,6 +16,7 @@ body {
     border-radius: 30px;
 }
 
+
 .screen {
     width: 92%;
     height: 50%;
@@ -43,8 +44,6 @@ body {
     padding: 16px;
 }
 
-
-
 .left_work_area button {
     width: 60px;
     height: 40px;
@@ -67,4 +66,10 @@ body {
 
 .right_work_area button:hover {
     background-color: rgb(115, 76, 76);
+}
+
+@media screen and (max-width:320px) {
+    .work_area button {
+        width: 48px;
+    }
 }
